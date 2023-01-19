@@ -1,3 +1,36 @@
 @charset "UTF-8";
+:root{
+    --cor1:#d8b66e;
+    --cor1:#4e4e4e;
+    
+}
 
+body{
+    background-color: #4e4e4e;
+}
 /*Mobile first*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d8b66e;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+.menu a:hover{
+    transition: 0.4s;
+    color: #d8b66e;
+    border: 1px solid #d8b66e;
+}
+
+.img-head{
+    border-radius: 20px;
+}
