@@ -4,6 +4,7 @@
 :root{
     --cor1:#d8b66e;
     --cor1:#4e4e4e;
+    --font1:@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@200 & family= Oxygen:wght@300 & family= Playfair+Display+SC & family= Sriracha & exibir=trocar');
     
 }
 
@@ -39,5 +40,5 @@ body{
 }
 .apresentação h1{
     color: white;
-    font-family:;
+    font-family:var(--font1);
 }
