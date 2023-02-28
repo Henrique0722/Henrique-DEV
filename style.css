@@ -74,13 +74,14 @@ body{
 }
 
 .p-sobre{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.603);
     max-width:400px;
     margin: auto;
     padding: 20px;
     line-height: 25px;
     color: white;
     font-size: 18px;
+    border: 1px solid #d8b66e;
     
 }
 
