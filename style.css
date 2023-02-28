@@ -33,6 +33,8 @@ body{
     transition: 0.4s;
     color: #d8b66e;
     border: 1px solid #d8b66e;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.692);
 }
 
 .img-head{
@@ -41,4 +43,37 @@ body{
 .apresentação h1{
     color: white;
     font-family:var(--font1);
+}
+.apresentação{
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #d8b66e;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bio{
+
+}
+.img-eu img{
+    max-width: 180px;
+    border-radius: 70%;
+    border: 1px solid #d8b66e;;
+}
+.titulo-sobre{
+    text-align: left;
+    margin-left: 0px;
+    border-radius: 0px 10px 10px  0px;
+    box-shadow: 3px 3px 3px #d8b66e;
+    max-width: 100px;
+}
+
+.p-sobre{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+    max-width:400px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
 }
