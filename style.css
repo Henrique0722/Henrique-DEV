@@ -19,7 +19,6 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-right: 50px;
     border-bottom: 1px solid #d8b66e;
 }
 
@@ -47,6 +46,7 @@ body{
 .apresentação{
     color: white;
     text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.678);
     border-bottom: 1px solid #d8b66e;
     padding: 20px;
     display: flex;
@@ -65,8 +65,12 @@ body{
     text-align: left;
     margin-left: 0px;
     border-radius: 0px 10px 10px  0px;
-    box-shadow: 3px 3px 3px #d8b66e;
+    box-shadow: 4px 4px 3px #d8b66ee7;
+    color: white;
     max-width: 100px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .p-sobre{
@@ -74,6 +78,36 @@ body{
     max-width:400px;
     margin: auto;
     padding: 20px;
+    line-height: 25px;
     color: white;
     font-size: 18px;
+    
+}
+
+.titulo-habilidades{
+    border-radius: 10px 0px 0px  10px;
+    box-shadow: -4px 4px 3px #d8b66ee7;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+    width: 160px;
+    margin-top: 30px;
+   text-align: center;
+   letter-spacing: 1px;
+    
+}
+.cont-titu-habi{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.container-tech{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img-tech{
+    box-shadow: 3px 3px 5px #d8b66ec2;
+    padding: 10px;
 }
