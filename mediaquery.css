@@ -44,4 +44,19 @@
     .open {
         display: block;
     }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.63);
+        
+    }
+    .img-cards{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .img-cards img{
+       width: 350px;
+    }
 }
