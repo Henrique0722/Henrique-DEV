@@ -139,9 +139,14 @@ button:hover{
 .img-cards{
 padding: 10px;
 margin: 10px;
+text-align: center;
 }
 .img-cards img{
     max-width: 300px;
+    border-radius: 10px;
+}
+.container-texto .texto {
+    display: none;
 }
 .img-cards:hover{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.295);

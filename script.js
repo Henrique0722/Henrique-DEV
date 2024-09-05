@@ -8,3 +8,13 @@ function menuShow() {
         document.querySelector('.icon').src = "imagens/close.png";
     }
 }
+
+function mostrar() {
+    alert("Função chamada!");
+    let mostre = document.querySelector('.container-texto .texto');
+    if (mostre.style.display === 'none' || mostre.style.display === '') {
+        mostre.style.display = 'block';
+    } else {
+        mostre.style.display = 'none';
+    }
+}
