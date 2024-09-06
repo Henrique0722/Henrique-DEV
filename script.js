@@ -10,11 +10,14 @@ function menuShow() {
 }
 
 function mostrar() {
-    alert("Função chamada!");
-    let mostre = document.querySelector('.container-texto .texto');
-    if (mostre.style.display === 'none' || mostre.style.display === '') {
+
+    let mostre = document.querySelector(' .texto');
+    if (mostre.style.display == 'none') {
         mostre.style.display = 'block';
     } else {
         mostre.style.display = 'none';
     }
+
+   
 }
+
