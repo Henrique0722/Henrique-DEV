@@ -6,6 +6,9 @@
 }
 
 @media screen and (max-width: 730px){
+    .img-eu img{
+        max-width: 250px;
+    }
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -61,3 +64,5 @@
        max-width: 330px;
     }
 }
+
+
