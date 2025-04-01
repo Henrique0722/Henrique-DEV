@@ -10,6 +10,7 @@
 
 body{
     background-color: #4e4e4e;
+   
 }
 /*Mobile first*/
 
@@ -17,14 +18,18 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    background-color: rgba(255, 255, 255, 0.171);
 }
 .nav-list {
     display: flex;
     align-items: center;
+   
+    border-radius: 10px;
     
 }
 .nav-list a{
     font-size: 22px;
+    color: white;
 }
 
 .nav-list ul {
@@ -68,6 +73,11 @@ button:hover{
     color: white;
     font-family:var(--font1);
 }
+.fundo{
+    background-image: url(imagens/ChatGPT\ Image\ 31\ de\ mar.\ de\ 2025\,\ 23_15_22.png);
+    background-size: cover;
+   
+}
 .apresentação{
     color: white;
     text-align: center;
@@ -77,12 +87,15 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.171);
+    
 }
 .bio{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 20px;
+    font-size: 28px;
+   
 }
 .img-eu img{
     max-width: 400px;
@@ -96,7 +109,7 @@ button:hover{
     border-radius: 0px 10px 10px  0px;
     box-shadow: 4px 4px 3px #d8b66ee7;
     color: white;
-    max-width: 100px;
+    max-width: 50%;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
     text-align: center;
     letter-spacing: 1px;
@@ -104,12 +117,12 @@ button:hover{
 
 .p-sobre{
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.603);
-    max-width:400px;
+    max-width:800px;
     margin: auto;
     padding: 20px;
     line-height: 25px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     border: 1px solid #d8b66e;
     border-radius: 10px;
     
@@ -120,7 +133,7 @@ button:hover{
     box-shadow: -4px 4px 3px #d8b66ee7;
     color: white;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
-    width: 160px;
+   width: 50%;
     margin-top: 30px;
    text-align: center;
    letter-spacing: 1px;
@@ -142,7 +155,9 @@ button:hover{
     box-shadow: 3px 3px 5px #d8b66ec2;
     padding: 10px;
     border-radius: 8px;
+    height: 100px;
 }
+
 
 .img-cards{
 padding: 10px;
@@ -150,16 +165,16 @@ margin: 10px;
 text-align: center;
 }
 .img-cards img{
-    max-width: 1000px;
+    max-width: 60%;
     border-radius: 10px;
 }
  .texto {
     display: none;
 }
-.img-cards:hover{
+.img-cards img:hover{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.295);
     transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
     border: 1px solid rgba(0, 0, 0, 0.521);
     border-radius: 10px;
 }

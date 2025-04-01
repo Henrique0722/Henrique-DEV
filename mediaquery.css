@@ -47,6 +47,9 @@
     .open {
         display: block;
     }
+    .bio{
+        font-size: 18px;
+    }
     .projetos{
         display: flex;
         flex-direction: column;
@@ -59,6 +62,9 @@
     .img-cards{
       margin-bottom: 10px;
         
+    }
+    .img-tech{
+        height: 70px;
     }
     .img-cards img{
        max-width: 330px;
