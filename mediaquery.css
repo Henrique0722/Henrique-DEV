@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 730px){
     .img-eu img{
-        max-width: 250px;
+        max-width: 200px;
     }
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -49,6 +49,12 @@
     }
     .bio{
         font-size: 18px;
+    }
+    .apresentação{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .projetos{
         display: flex;
