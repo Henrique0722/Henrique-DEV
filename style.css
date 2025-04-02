@@ -10,7 +10,7 @@
 
 body{
     background-color: #4e4e4e;
-   
+   margin: 0;
 }
 /*Mobile first*/
 
@@ -23,14 +23,19 @@ body{
 .nav-list {
     display: flex;
     align-items: center;
-   
+   background-color: rgba(255, 255, 255, 0.288);
     border-radius: 10px;
-    
 }
 .nav-list a{
     font-size: 22px;
     color: white;
 }
+.nav-list li:hover{
+    transition: 0.4s;
+    transform: scale(1.03,1.03);
+}
+   
+
 
 .nav-list ul {
     display: flex;
@@ -77,6 +82,8 @@ button:hover{
     background-image: url(imagens/ChatGPT\ Image\ 31\ de\ mar.\ de\ 2025\,\ 23_15_22.png);
     background-size: cover;
    
+ 
+
 }
 .apresentação{
     color: white;
@@ -88,7 +95,7 @@ button:hover{
     flex-direction: row;
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.171);
-    
+    height: 80vh
 }
 .bio{
     display: flex;
@@ -102,6 +109,10 @@ button:hover{
     border-radius: 70%;
     border: 1px solid #d8b66e;;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.39);
+}
+.img-eu img:hover{
+    transition: 0.4s;
+    transform: scale(1.03, 1.03)
 }
 .titulo-sobre{
     text-align: left;
