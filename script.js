@@ -20,24 +20,30 @@ function mostrar() {
 
    
 }
-const mybutton = document.getElementById("scrollToTopBtn");
+window.onload = function() {
+    const mybutton = document.getElementById("scrollToTopBtn");
 
-// Quando o usuário rolar, verificar a posição da rolagem
-window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.classList.add("show"); // Adiciona a classe 'show' quando a rolagem é maior que 20px
-    } else {
-        mybutton.classList.remove("show"); // Remove a classe 'show' quando a rolagem é menor ou igual a 20px
+    // Quando o usuário rolar a página, verifica a posição da rolagem
+    window.onscroll = function() {
+        // Se o usuário rolar para baixo mais de 20px, o botão aparece
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+            mybutton.classList.add("show"); // Adiciona a classe 'show' para mostrar o botão
+        } else {
+            mybutton.classList.remove("show"); // Remove a classe 'show' para esconder o botão
+        }
+    };
+
+    // Função para rolar até o topo de forma suave
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,             // Vai até o topo da página
+            behavior: "smooth"  // Rolagem suave
+        });
     }
-};
 
-// Função para rolar até o topo de forma suave
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,             // Vai até o topo da página
-        behavior: "smooth"  // Rolagem suave
-    });
-}
+    // Expondo a função scrollToTop para o escopo global (a partir do HTML)
+    window.scrollToTop = scrollToTop;
+};
 
 
 

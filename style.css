@@ -200,18 +200,19 @@ text-align: center;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007BFF;
+    background-color: #fcfcfc1a;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 11px 20px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50%;
     display: none; /* Inicialmente o botão está invisível */
     transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+    font-size: 25px;
 }
 
 #scrollToTopBtn:hover {
-    background-color: #0056b3;
+    background-color: #fcfcfc5b;
 }
 
 #scrollToTopBtn.show {
