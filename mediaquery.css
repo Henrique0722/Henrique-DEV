@@ -12,7 +12,7 @@
     .nav-bar {
         padding: 1.5rem 4rem;
     }
-    .nav-item {
+    .nav-item, .nav-list {
         display: none;
     }
     .login-button {

@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     padding: 1.5rem 6rem;
     background-color: rgba(255, 255, 255, 0.171);
+   
 }
 .nav-list {
     display: flex;
@@ -104,6 +105,10 @@ button:hover{
     font-size: 28px;
    
 }
+.bio:hover{
+    transition: 0.4s;
+    transform: scale(1.05,1.05);
+}
 .img-eu img{
     max-width: 400px;
     border-radius: 70%;
@@ -112,7 +117,7 @@ button:hover{
 }
 .img-eu img:hover{
     transition: 0.4s;
-    transform: scale(1.03, 1.03)
+    transform: scale(1.05, 1.05)
 }
 .titulo-sobre{
     text-align: left;
@@ -189,3 +194,28 @@ text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.521);
     border-radius: 10px;
 }
+
+/* Estilo do botão */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none; /* Inicialmente o botão está invisível */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0056b3;
+}
+
+#scrollToTopBtn.show {
+    display: block; /* Torna o botão visível quando a classe 'show' é aplicada */
+}
+
+
