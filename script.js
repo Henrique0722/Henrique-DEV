@@ -47,5 +47,28 @@ window.onload = function() {
 
 
 
+  function escreverTextoAutomatico(elementoId, texto, velocidade = 100) {
+    const elemento = document.getElementById(elementoId);
+    let index = 0;
+
+    elemento.innerHTML = ""; // Limpa antes de começar
+
+    function escrever() {
+      if (index < texto.length) {
+        elemento.innerHTML += texto[index] === "\n" ? "<br>" : texto[index];
+        index++;
+        setTimeout(escrever, velocidade);
+      }
+    }
+
+    escrever();
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    escreverTextoAutomatico("meuTexto", "Seja bem-vindo(a) ao meu mundo digital!", 100);
+  });
+    
+
+
 
 
