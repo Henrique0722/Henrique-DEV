@@ -1,3 +1,5 @@
+
+//abrir e fechar o menu hamburguer
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -9,6 +11,7 @@ function menuShow() {
     }
 }
 
+//quando o usuario diminuir a tela, o menu vira um hamburguer
 function mostrar() {
 
     let mostre = document.querySelector(' .texto');
@@ -20,6 +23,8 @@ function mostrar() {
 
    
 }
+
+//botao de retorno para o inicio
 window.onload = function() {
     const mybutton = document.getElementById("scrollToTopBtn");
 
@@ -46,7 +51,7 @@ window.onload = function() {
 };
 
 
-
+//escrita automatica de saudação
   function escreverTextoAutomatico(elementoId, texto, velocidade = 100) {
     const elemento = document.getElementById(elementoId);
     let index = 0;
