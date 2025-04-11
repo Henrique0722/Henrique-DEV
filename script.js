@@ -70,7 +70,7 @@ window.onload = function() {
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    escreverTextoAutomatico("meuTexto", "Seja bem-vindo(a) ao meu mundo digital!", 100);
+    escreverTextoAutomatico("meuTexto", "Desenvolvedor Front-End Web", 100);
   });
     
 
