@@ -243,6 +243,10 @@ margin: 10px;
 .img-cards img{
     border-radius: 10px;
     width: 80%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
  .texto {
     display: none;
