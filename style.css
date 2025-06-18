@@ -14,7 +14,7 @@ body{
    margin-left: 250px; /* mesma largura do menu */
    
 }
-/*Mobile first*/
+
 
 .nav-bar {
     display: flex;
@@ -143,6 +143,9 @@ button:hover{
     font-size: 20px;
    
 }
+.img-eu-mobile{
+        display: none;
+    }
 
 #meuTexto:hover{
     transition: 0.4s;
