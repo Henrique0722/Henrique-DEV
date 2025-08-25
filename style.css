@@ -170,6 +170,9 @@ button:hover{
     transition: 0.4s;
     transform: scale(1.05, 1.05)
 }
+.sobre{
+   height: 100vh;
+}
 .titulo-sobre{
     text-align: left;
     margin-left: 0px;
@@ -180,19 +183,42 @@ button:hover{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
     text-align: center;
     letter-spacing: 1px;
+    padding: 5px;
 }
 
 .p-sobre{
-    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.603);
-    max-width:800px;
+   font-family: sans-serif;
+    max-width:750px;
     margin: auto;
     padding: 20px;
-    line-height: 25px;
+    line-height: 30px;
     color: white;
-    font-size: 20px;
-    border: 1px solid #d8b66e;
+    font-size: 18px;
+    
     border-radius: 10px;
     
+}
+.flex-sobre{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+}
+strong{
+    color: #d8b66e;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.box-contato li{
+    list-style: none;
+    display: flex;         
+    align-items: center;   
+    gap: 5px;
+    border-bottom: 1px solid #d8b66eab;
+}
+.contato{
+    margin: auto;
 }
 
 .titulo-habilidades{

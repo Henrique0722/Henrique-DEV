@@ -54,28 +54,30 @@ window.onload = function() {
 
 
 //escrita automatica de saudação
-  function escreverTextoAutomatico(elementoId, texto, velocidade = 100) {
-    const elemento = document.getElementById(elementoId);
-    let index = 0;
+  function escreverTextoAutomatico(id, texto, velocidade) {
+  const elemento = document.getElementById(id);
+  let index = 0;
 
-    elemento.innerHTML = ""; // Limpa antes de começar
-
-    function escrever() {
-      if (index < texto.length) {
-        elemento.innerHTML += texto[index] === "\n" ? "<br>" : texto[index];
-        index++;
-        setTimeout(escrever, velocidade);
-      }
+  function escrever() {
+    if (index < texto.length) {
+      elemento.innerHTML += texto[index] === "\n" ? "<br>" : texto[index];
+      index++;
+      setTimeout(escrever, velocidade);
+    } else {
+      // Quando terminar, limpa o texto e reinicia
+      setTimeout(() => {
+        elemento.innerHTML = "";
+        index = 0;
+        escrever();
+      }, 1000); // pausa de 1s antes de reiniciar
     }
-
-    escrever();
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
-    escreverTextoAutomatico("meuTexto", "Desenvolvedor Front-End Web", 100);
-  });
-    
+  escrever();
+}
 
-
+document.addEventListener("DOMContentLoaded", function() {
+  escreverTextoAutomatico("meuTexto", "Estágiario de Desenvolvimento Fullstack", 100);
+});
 
 
