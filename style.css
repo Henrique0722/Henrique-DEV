@@ -172,6 +172,10 @@ button:hover{
 }
 .sobre{
    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .titulo-sobre{
     text-align: left;
@@ -191,9 +195,9 @@ button:hover{
     max-width:750px;
     margin: auto;
     padding: 20px;
-    line-height: 30px;
+    line-height: 35px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     
     border-radius: 10px;
     
@@ -216,12 +220,15 @@ strong{
     align-items: center;   
     gap: 5px;
     border-bottom: 1px solid #d8b66eab;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
 }
 .contato{
     margin: auto;
 }
 
-.titulo-habilidades{
+.titulo-habilidades, .meus-projetos{
     border-radius: 10px 0px 0px  10px;
     box-shadow: -4px 4px 3px #d8b66ee7;
     color: white;
@@ -243,12 +250,13 @@ strong{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: 90%;
 }
 .img-tech{
     box-shadow: 3px 3px 5px #d8b66ec2;
     padding: 10px;
     border-radius: 8px;
-    height: 100px;
+    height: 120px;
 }
 .projetos{
    
