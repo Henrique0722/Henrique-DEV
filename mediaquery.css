@@ -6,7 +6,7 @@
     
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 900px){
     body{
         background-color: #4e4e4e;
        margin: 0;
@@ -94,6 +94,18 @@
         justify-content: center;
     }
 
+    .titulo-sobre{
+        font-size: 18px;
+    }
+    .sobre, .p-sobre{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .flex-sobre{
+        display: flex;
+        flex-direction: column;
+        
+    }
     
     .projetos{
         display: flex;
@@ -119,6 +131,14 @@
     .img-tech{
         height: 70px;
     }
+
+    .container-tech{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+}
     #meuTexto{
         margin-left: 0;
         font-size: 28px;
