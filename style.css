@@ -12,6 +12,7 @@ body{
     background-color: #4e4e4e;
    margin: 0;
    margin-left: 250px; /* mesma largura do menu */
+   overflow-x: hidden; /* evita rolagem horizontal */
    
 }
 
@@ -249,8 +250,14 @@ strong{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .img-tech{
     box-shadow: 3px 3px 5px #d8b66ec2;
@@ -258,9 +265,7 @@ strong{
     border-radius: 8px;
     height: 120px;
 }
-.projetos{
-   
-}
+
 
 .projeto-cards{
 text-align: center;
