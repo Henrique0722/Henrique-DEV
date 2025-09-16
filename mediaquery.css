@@ -134,6 +134,7 @@
     .img-cards{
       margin-bottom: 10px;
       
+      
         
     }
     .img-cards img {
@@ -142,6 +143,14 @@
         height: auto;
         margin: 1rem auto;
         border-radius: 10px;
+    }
+    
+    .img-cards h3{
+        font-size: 20px;
+        padding: 8px 12px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .img-tech{
         height: 100px;

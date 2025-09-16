@@ -273,11 +273,10 @@ text-align: center;
 }
 
 .img-cards{
-padding: 10px;
-margin: 10px;
-
-
-
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
 }
 .img-cards img{
     border-radius: 10px;
@@ -286,6 +285,23 @@ margin: 10px;
     height: auto;
     display: block;
     margin: 0 auto;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+
+.img-cards h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
+    transition: all 0.3s ease;
 }
  .texto {
     display: none;
@@ -296,7 +312,10 @@ margin: 10px;
     transform: scale(1.03, 1.03);
     border: 1px solid rgba(0, 0, 0, 0.521);
     border-radius: 10px;
+    opacity: 1;
 }
+
+
 
 /* Estilo do botão */
 #scrollToTopBtn {

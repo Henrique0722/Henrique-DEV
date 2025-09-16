@@ -64,6 +64,7 @@ window.onload = function() {
       index++;
       setTimeout(escrever, velocidade);
     } else {
+      
       // Quando terminar, limpa o texto e reinicia
       setTimeout(() => {
         elemento.innerHTML = "";
